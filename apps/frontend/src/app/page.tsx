@@ -9,7 +9,7 @@ export default function Home() {
             PlatFormula.One
           </h1>
           <p className="text-xl text-gray-600 mb-8">
-            AI-Powered Startup Accelerator Program & Founders' Toolbox
+            AI-Powered Startup Accelerator Program & Founders&apos; Toolbox
           </p>
         </div>
 

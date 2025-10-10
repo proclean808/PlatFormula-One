@@ -236,7 +236,7 @@ function FormField({
 }: {
   label: string
   value: string
-  onChange: (value: string) => void
+  onChange: (val: string) => void
   placeholder: string
   textarea?: boolean
 }) {

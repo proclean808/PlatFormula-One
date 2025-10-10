@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 
 export default function ProgramTimeline() {
-  const [selectedMonth, setSelectedMonth] = useState('October')
+  const [selectedMonth] = useState('October')
   const [events] = useState([
     {
       id: 1,
