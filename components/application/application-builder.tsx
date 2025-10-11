@@ -72,7 +72,7 @@ export function ApplicationBuilder({ userId, programs, existingApplication }: Ap
   // Load existing application data
   useEffect(() => {
     if (existingApplication?.data) {
-      setFormData(existingApplication.data as FormData)
+      setFormData(existingApplication.data as unknown as FormData)
       setApplicationId(existingApplication.id)
     }
   }, [existingApplication])
